@@ -15,7 +15,7 @@ function watch_clicks() {
       clicks++;
 
       while ( BTN.read() ) {
-        // Wait
+        // Wait for button release
       }
 
       LED3.reset();
@@ -44,7 +44,7 @@ while ( true ) {
   if ( BTN.read() ) {
     LED3.set();
     while ( BTN.read() ) {
-      // Wait
+      // Wait for button release
     }
 
     LED3.reset();
