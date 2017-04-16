@@ -7,7 +7,6 @@ const int pinLEDPower = 9;
 const int pinLED1 = 6;
 const int pinLED2 = 5;
 const int pinLED3 = 3;
-const int pinIR= 2;
 
 int powerOn = false;
 int activeLED = pinLED1;
